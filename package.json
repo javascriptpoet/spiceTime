@@ -1,0 +1,11 @@
+{
+  "name": "spicetime",
+  "version": "1.0.0",
+  "description": "a thin wrapper around js function based on spaceTime/Reality abstraction",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dmitry Shusterman",
+  "license": "ISC"
+}
