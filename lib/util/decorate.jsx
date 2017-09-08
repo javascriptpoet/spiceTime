@@ -1,0 +1,1 @@
+export default ()=>({self,statics})=>Object.assign(self,statics)
