@@ -1,0 +1,1 @@
+export default  ()=>(node$class)=>(props)=>(new node$class(props))

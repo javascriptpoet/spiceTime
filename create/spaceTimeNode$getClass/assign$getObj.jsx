@@ -1,0 +1,1 @@
+export default ()=>(self)=>(extender)=>Object.assign(self,extender)
