@@ -1,0 +1,33 @@
+export default ({
+    external:{_},
+    util:{extendMe}
+})=>(
+    {path,
+        nodeSpec:{
+            housedModuleNames:[],
+            homelessModules:{}
+        },
+        constructor:{
+            nameHandle$class,nodeSpec$castFrom,housedNodeSpec$get
+        }
+    },
+    {self:{updateNodeSpecs$getObj}}
+)=>({
+    ...housedModuleNames.reduce(
+        (nodeSpecs,fullName)=>updateNodeSpecs$getObj({nodeSpecs,fullName,
+            nodeSpec:nodeSpec$castFrom({
+                housedNodeSpec:housedNodeSpec$get({
+                    path:path+'/'+fullName
+                })
+            })
+        }),
+        {}
+    ),
+    ..._.reduce(
+        homelessModules,
+        (nodeSpecs,homelessNodeSpec,fullName)=>updateNodeSpecs$getObj({nodeSpecs,fullName,
+            nodeSpec:nodeSpec$castFrom({homelessNodeSpec})
+        }),
+        {}
+    )
+})

@@ -1,1 +1,0 @@
-export default ({external:{_}})=>({space})=>()=>_.values(space)

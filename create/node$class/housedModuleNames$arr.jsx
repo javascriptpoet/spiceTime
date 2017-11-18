@@ -1,0 +1,1 @@
+export  default ['creatorNode$class']

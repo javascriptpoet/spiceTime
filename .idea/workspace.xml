@@ -2,80 +2,107 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d5b1d4fc-d39b-473d-a6b1-354c1f820725" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/create/#util/structuredClass$get.jsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/create/#util/structuredFunc$get.jsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/create/node$class/constructor.jsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/create/node$class/getFirstName.jsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/create/node$class/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/create/node$class/nodeTypesFunc$stat.jsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/create/node$class/nodeTypesFunc/baseFunc$stat/runtimeFunc$stat.jsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/create/node$class/nodeTypesFunc/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/create/node$class/nodeTypesFunc/structuredFunc$stat/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/create/node$class/nodeTypesFunc/structuredFunc$stat/runtimeFunc$stat.jsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/create/spaceTimeNode$getClass/#statics/defaultPresent$get.jsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/create/spaceTimeNode$getClass/#statics/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/create/spaceTimeNode$getClass/#statics/instance$get.jsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/create/spaceTimeNode$getClass/#statics/nameHandle$class.jsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/create/spaceTimeNode$getClass/#statics/nodeFlavorNames$obj.jsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/create/spaceTimeNode$getClass/assign$getObj.jsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/create/spaceTimeNode$getClass/buildtimeProps$getObj.jsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/create/spaceTimeNode$getClass/childNodes$getObj/#statics/flavoredFirstNode$get.jsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/create/spaceTimeNode$getClass/childNodes$getObj/#statics/flavoredNodes$getObj.jsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/create/spaceTimeNode$getClass/childNodes$getObj/#statics/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/create/spaceTimeNode$getClass/childNodes$getObj/#statics/node$get.jsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/create/spaceTimeNode$getClass/childNodes$getObj/#statics/nodes$obj.jsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/create/spaceTimeNode$getClass/childNodes$getObj/func.jsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/create/spaceTimeNode$getClass/childNodes$getObj/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/create/spaceTimeNode$getClass/constructor.jsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/create/spaceTimeNode$getClass/firstName$getStr.jsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/create/spaceTimeNode$getClass/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/create/spaceTimeNode$getClass/invoke$get/#statics/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/create/spaceTimeNode$getClass/invoke$get/#statics/space$getObj.jsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/create/spaceTimeNode$getClass/invoke$get/#statics/time$getObj.jsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/create/spaceTimeNode$getClass/invoke$get/func.jsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/create/spaceTimeNode$getClass/invoke$get/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/create/spiceNode$getClass.jsx" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/MiniNode$func/constructor.jsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/MiniNode$func/getBuildTimeScopes.jsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/MiniNode$func/getFirstName.jsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/MiniNode$func/getNode.jsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/MiniNode$func/getNodeSpec.jsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/MiniNode$func/getNodes/getAttrNodes.jsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/MiniNode$func/getNodes/getInfos.jsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/MiniNode$func/getProcess/constructor.jsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/MiniNode$func/getST/constructor.jsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/MiniNode$func/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/MiniNode$func/invoke/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/topNode/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/util/decorate.jsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/util/getStructuredClass.jsx" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lib/MiniNode$func/NameHandle.jsx" afterPath="$PROJECT_DIR$/create/node$class/NameHandle.jsx" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lib/MiniNode$func/attrNames.jsx" afterPath="$PROJECT_DIR$/create/node$class/attrNames.jsx" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lib/MiniNode$func/getNodes/getNodes.jsx" afterPath="$PROJECT_DIR$/create/node$class/getNodes/getNodes.jsx" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lib/MiniNode$func/getNodes/index.js" afterPath="$PROJECT_DIR$/create/node$class/getNodes/index.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lib/MiniNode$func/getProcess/index.js" afterPath="$PROJECT_DIR$/create/node$class/getProcess/index.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lib/MiniNode$func/getProcess/tic$func.jsx" afterPath="$PROJECT_DIR$/create/node$class/getProcess/tic$func.jsx" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lib/MiniNode$func/getRuntimeScopes.jsx" afterPath="$PROJECT_DIR$/create/node$class/getRuntimeScopes.jsx" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lib/MiniNode$func/getST/ModuleHandler.jsx" afterPath="$PROJECT_DIR$/create/node$class/getST/ModuleHandler.jsx" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lib/MiniNode$func/getST/index.js" afterPath="$PROJECT_DIR$/create/node$class/getST/index.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lib/MiniNode$func/getScope.jsx" afterPath="$PROJECT_DIR$/create/node$class/getScope.jsx" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lib/MiniNode$func/invoke.jsx" afterPath="$PROJECT_DIR$/create/node$class/invoke.jsx" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lib/MiniNode$func/invoke/getResult.jsx" afterPath="$PROJECT_DIR$/create/node$class/invoke/getResult.jsx" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lib/MiniNode$func/n$static.jsx" afterPath="$PROJECT_DIR$/create/node$class/n$static.jsx" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lib/MiniNode$func/tt$static.jsx" afterPath="$PROJECT_DIR$/create/node$class/tt$static.jsx" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lib/create.jsx" afterPath="$PROJECT_DIR$/create/index.jsx" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lib/external.jsx" afterPath="$PROJECT_DIR$/create/#external.jsx" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lib/util/assert.jsx" afterPath="$PROJECT_DIR$/create/#util/assert.jsx" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lib/util/assign.jsx" afterPath="$PROJECT_DIR$/create/#util/assign.jsx" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lib/util/extendMe.jsx" afterPath="$PROJECT_DIR$/create/#util/extendMe.jsx" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lib/util/getTransform.jsx" afterPath="$PROJECT_DIR$/create/#util/getTransform.jsx" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lib/util/index.js" afterPath="$PROJECT_DIR$/create/#util/index.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lib/util/ticType.jsx" afterPath="$PROJECT_DIR$/create/#util/ticType.jsx" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lib/util/typeofSwitch.jsx" afterPath="$PROJECT_DIR$/create/#util/typeofSwitch.jsx" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lib/util/types.jsx" afterPath="$PROJECT_DIR$/create/#util/types.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/create/#util/assignDescriptors.jsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/create/#util/unwrap.jsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/create/housedNodeSpec$getGetObj.jsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/create/node$class/childNodes$proto_getObj#supr/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/create/node$class/childNodes$proto_getObj#supr/nodeSpecs$proto_getObj#supr/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/create/node$class/childNodes$proto_getObj#supr/nodeSpecs$proto_getObj#supr/updateNodeSpecs$proto_getObj.jsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/create/node$class/structuredNames#present.jsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/create/spaceTimeNode$class/#proto/buildtimeProps$getObj.jsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/create/spaceTimeNode$class/#proto/childNodes$getObj/filteredNodes$getObj.jsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/create/spaceTimeNode$class/#proto/childNodes$getObj/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/create/spaceTimeNode$class/#proto/childNodes$getObj/nodeSpecs$getObj/func.jsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/create/spaceTimeNode$class/#proto/childNodes$getObj/nodeSpecs$getObj/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/create/spaceTimeNode$class/#proto/childNodes$getObj/nodeSpecs$getObj/updateNodeSpecs$getObj.jsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/create/spaceTimeNode$class/#proto/get#getFunc/spaceTime$getObj/func.jsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/create/spaceTimeNode$class/#proto/get#getFunc/spaceTime$getObj/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/create/spaceTimeNode$class/#proto/get#getFunc/spaceTime$getObj/localSpace$get/func.jsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/create/spaceTimeNode$class/#proto/get#getFunc/spaceTime$getObj/localSpace$get/mountNodes#get.jsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/create/spaceTimeNode$class/#proto/get#getFunc/spaceTime$getObj/localTime$get/func.jsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/create/spaceTimeNode$class/#proto/get#getFunc/spaceTime$getObj/localTime$get/future$get.jsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/create/spaceTimeNode$class/#proto/get#getFunc/spaceTime$getObj/localTime$get/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/create/spaceTimeNode$class/#proto/get#getFunc/spaceTime$getObj/localTime$get/past$getArr.jsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/create/spaceTimeNode$class/#proto/get#getFunc/spaceTime$getObj/localTime$get/present$get.jsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/create/spaceTimeNode$class/#proto/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/create/spaceTimeNode$class/#proto/set#getFunc.jsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/create/spaceTimeNode$class/#proto/spice$getObj.jsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/create/spaceTimeNode$class/#statik/baseSpice$obj/get#spice.jsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/create/spaceTimeNode$class/#statik/baseSpice$obj/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/create/spaceTimeNode$class/#statik/baseSpice$obj/val#spice.jsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/create/spaceTimeNode$class/#statik/defaultPresent$get.jsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/create/spaceTimeNode$class/#statik/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/create/spaceTimeNode$class/#statik/nameHandle$class/constructor.jsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/create/spaceTimeNode$class/#statik/nameHandle$class/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/create/spaceTimeNode$class/#statik/nameHandle$class/proto/attrs$getDarr.jsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/create/spaceTimeNode$class/#statik/nameHandle$class/proto/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/create/spaceTimeNode$class/#statik/nameHandle$class/statik/attrDefs$obj.jsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/create/spaceTimeNode$class/#statik/nameHandle$class/statik/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/create/spaceTimeNode$class/#statik/nodeSpec$castFrom.jsx/func.jsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/create/spaceTimeNode$class/#statik/nodeSpec$castFrom.jsx/housedNodeSpec$get.jsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/create/spaceTimeNode$class/#statik/nodeSpec$castFrom.jsx/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/create/spaceTimeNode$class/constructor.jsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/create/spaceTimeNode$class/index.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/create/#util/assign.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/create/#util/structuredFunc$get.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/create/node$class/NameHandle.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/create/node$class/attrNames.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/create/node$class/constructor.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/create/node$class/getBuildTimeScopes.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/create/node$class/getFirstName.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/create/node$class/getNode.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/create/node$class/getNodeSpec.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/create/node$class/getNodes/baseRuntimeFunc.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/create/node$class/getNodes/getInfos.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/create/node$class/getNodes/getNodes.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/create/node$class/getNodes/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/create/node$class/getProcess/constructor.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/create/node$class/getProcess/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/create/node$class/getProcess/tic$func.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/create/node$class/getRuntimeScopes.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/create/node$class/getST/ModuleHandler.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/create/node$class/getST/constructor.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/create/node$class/getST/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/create/node$class/getScope.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/create/node$class/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/create/node$class/invoke.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/create/node$class/invoke/getResult.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/create/node$class/invoke/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/create/node$class/n$static.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/create/node$class/nodeTypesFunc$stat.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/create/node$class/nodeTypesFunc/baseFunc$stat/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/create/node$class/nodeTypesFunc/baseFunc$stat/runtimeFunc$stat.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/create/node$class/nodeTypesFunc/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/create/node$class/nodeTypesFunc/structuredFunc$stat/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/create/node$class/nodeTypesFunc/structuredFunc$stat/runtimeFunc$stat.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/create/node$class/tt$static.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/create/spaceTimeNode$getClass/#statics/defaultPresent$get.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/create/spaceTimeNode$getClass/#statics/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/create/spaceTimeNode$getClass/#statics/nameHandle$class.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/create/spaceTimeNode$getClass/#statics/nodeFlavorNames$obj.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/create/spaceTimeNode$getClass/assign$getObj.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/create/spaceTimeNode$getClass/buildtimeProps$getObj.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/create/spaceTimeNode$getClass/childNodes$getObj/#statics/flavoredFirstNode$get.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/create/spaceTimeNode$getClass/childNodes$getObj/#statics/flavoredNodes$getObj.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/create/spaceTimeNode$getClass/childNodes$getObj/#statics/housedNodeSpec$getObj.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/create/spaceTimeNode$getClass/childNodes$getObj/#statics/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/create/spaceTimeNode$getClass/childNodes$getObj/#statics/node$get.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/create/spaceTimeNode$getClass/childNodes$getObj/#statics/nodes$obj.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/create/spaceTimeNode$getClass/childNodes$getObj/func.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/create/spaceTimeNode$getClass/childNodes$getObj/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/create/spaceTimeNode$getClass/constructor.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/create/spaceTimeNode$getClass/firstName$getStr.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/create/spaceTimeNode$getClass/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/create/spaceTimeNode$getClass/invoke$get/#statics/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/create/spaceTimeNode$getClass/invoke$get/#statics/space$getObj.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/create/spaceTimeNode$getClass/invoke$get/#statics/time$getObj.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/create/spaceTimeNode$getClass/invoke$get/func.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/create/spaceTimeNode$getClass/invoke$get/index.js" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/create/spaceTimeNode$getClass/#statics/instance$get.jsx" afterPath="$PROJECT_DIR$/create/spaceTimeNode$class/#statik/instance$get.jsx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.js" afterPath="$PROJECT_DIR$/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/create/#util/extendMe.jsx" afterPath="$PROJECT_DIR$/create/#util/extendMe.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/create/#util/structuredClass$get.jsx" afterPath="$PROJECT_DIR$/create/#util/structuredClass$get.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/create/index.jsx" afterPath="$PROJECT_DIR$/create/index.jsx" />
     </list>
     <ignored path="spiceTime.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -105,105 +132,103 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/create/spaceTimeNode$getClass/childNodes$getObj/#statics/index.js">
+      <file leaf-file-name="constructor.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/create/spaceTimeNode$class/#statik/nameHandle$class/constructor.jsx">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
-              <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
-              <folding>
-                <element signature="e#0#42#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="housedNodeSpec$getObj.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/create/spaceTimeNode$getClass/childNodes$getObj/#statics/housedNodeSpec$getObj.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-173">
-              <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="node$get.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/create/spaceTimeNode$getClass/childNodes$getObj/#statics/node$get.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="53" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="nodes$obj.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/create/spaceTimeNode$getClass/childNodes$getObj/#statics/nodes$obj.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+              <caret line="6" column="42" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/create/spaceTimeNode$getClass/#statics/index.js">
+        <entry file="file://$PROJECT_DIR$/create/node$class/childNodes$proto_getObj#supr/nodeSpecs$proto_getObj#supr/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="48" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
+            <state relative-caret-position="15">
+              <caret line="1" column="42" selection-start-line="1" selection-start-column="42" selection-end-line="1" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="updateNodeSpecs$proto_getObj.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/create/node$class/childNodes$proto_getObj#supr/nodeSpecs$proto_getObj#supr/updateNodeSpecs$proto_getObj.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="structuredClass$get.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/create/#util/structuredClass$get.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="645">
+              <caret line="46" column="51" selection-start-line="46" selection-start-column="51" selection-end-line="46" selection-end-column="51" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="func.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/create/spaceTimeNode$class/#proto/childNodes$getObj/nodeSpecs$getObj/func.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="updateNodeSpecs$getObj.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/create/spaceTimeNode$class/#proto/childNodes$getObj/nodeSpecs$getObj/updateNodeSpecs$getObj.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="2" selection-start-line="2" selection-start-column="5" selection-end-line="4" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/create/spaceTimeNode$class/#proto/childNodes$getObj/nodeSpecs$getObj/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="41" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
               <folding>
-                <element signature="e#0#42#0" expanded="true" />
+                <element signature="e#0#62#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="defaultPresent$get.jsx" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/create/spaceTimeNode$getClass/#statics/defaultPresent$get.jsx">
+      <file leaf-file-name="filteredNodes$getObj.jsx" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/create/spaceTimeNode$class/#proto/childNodes$getObj/filteredNodes$getObj.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="flavoredNodes$getObj.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/create/spaceTimeNode$getClass/childNodes$getObj/#statics/flavoredNodes$getObj.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="flavoredFirstNode$get.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/create/spaceTimeNode$getClass/childNodes$getObj/#statics/flavoredFirstNode$get.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
+            <state relative-caret-position="300">
+              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="constructor.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/create/spaceTimeNode$getClass/constructor.jsx">
+        <entry file="file://$PROJECT_DIR$/create/spaceTimeNode$class/constructor.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="65" selection-start-line="2" selection-start-column="65" selection-end-line="2" selection-end-column="65" />
+            <state relative-caret-position="225">
+              <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="nodeFlavorNames$obj.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/create/spaceTimeNode$getClass/#statics/nodeFlavorNames$obj.jsx">
+      <file leaf-file-name="onlyFilteredNode$get.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/create/spaceTimeNode$class/#proto/childNodes$getObj/onlyFilteredNode$get.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -222,57 +247,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/create/baseNode$getClass/scope$getObj.jsx" />
-        <option value="$PROJECT_DIR$/create/baseNode$getClass/runtimeProps$getObj.jsx" />
-        <option value="$PROJECT_DIR$/create/baseNode$getClass/pickChildInfos$getObj.jsx" />
-        <option value="$PROJECT_DIR$/create/baseNode$getClass/instance$get.jsx" />
-        <option value="$PROJECT_DIR$/create/baseNode$getClass/childNode$getObj.jsx" />
-        <option value="$PROJECT_DIR$/create/#util/decoratedFunc$get.jsx" />
-        <option value="$PROJECT_DIR$/create/baseNode$getClass/timeScope$getDecoratedArr.jsx" />
-        <option value="$PROJECT_DIR$/create/baseNode$getClass/time$getObj.jsx" />
-        <option value="$PROJECT_DIR$/create/baseNode$getClass/baseNodeNames$obj#static.jsx" />
-        <option value="$PROJECT_DIR$/create/baseNode$getClass/defaultPresent$get#static.jsx" />
-        <option value="$PROJECT_DIR$/create/baseNode$getClass/nodeSpec$getObj.jsx" />
-        <option value="$PROJECT_DIR$/create/baseNode$getClass/assign$getObj.jsx" />
-        <option value="$PROJECT_DIR$/create/baseNode$getClass/childNodeSpec$getObj.jsx" />
-        <option value="$PROJECT_DIR$/create/baseNode$getClass/firstName$getStr.jsx" />
-        <option value="$PROJECT_DIR$/create/baseNode$getClass/childInfos$getObj.jsx" />
-        <option value="$PROJECT_DIR$/create/baseNode$getClass/addChildInfo$getObj.jsx" />
-        <option value="$PROJECT_DIR$/create/baseNode$getClass/childNodes$getObj/index.js" />
-        <option value="$PROJECT_DIR$/create/baseNode$getClass/flavoredChildNodes$getObj.jsx" />
-        <option value="$PROJECT_DIR$/create/baseNode$getClass/housedNodeSpec$getObj.jsx" />
-        <option value="$PROJECT_DIR$/create/baseNode$getClass/constructor.jsx" />
-        <option value="$PROJECT_DIR$/create/baseNode$getClass/invoke$get.jsx" />
-        <option value="$PROJECT_DIR$/create/baseNode$getClass/index.js" />
+        <option value="$PROJECT_DIR$/create/spaceTimeNode$getClass/#proto/get#getFunc/func.jsx" />
+        <option value="$PROJECT_DIR$/create/spaceTimeNode$getClass/#proto/get#getFunc/spaceTime$getObj/localTime$get/present$get.jsx" />
+        <option value="$PROJECT_DIR$/create/spaceTimeNode$getClass/#statik/baseSpice$obj/val#spice.jsx" />
+        <option value="$PROJECT_DIR$/create/spaceTimeNode$getClass/#statik/baseSpice$obj/get#spice.jsx" />
+        <option value="$PROJECT_DIR$/create/spaceTimeNode$getClass/#proto/get#getFunc/spaceTime$getObj/localTime$get/future$get.jsx" />
+        <option value="$PROJECT_DIR$/create/create#get.jsx" />
+        <option value="$PROJECT_DIR$/create/node$class/housedModuleNames$obj.jsx" />
+        <option value="$PROJECT_DIR$/create/node$class/housedModuleNames$arr.jsx" />
+        <option value="$PROJECT_DIR$/create/housedNodeSpec$getGetObj.jsx" />
+        <option value="$PROJECT_DIR$/create/spaceTimeNode$class/index.js" />
+        <option value="$PROJECT_DIR$/create/node$class/creatorNode$class/methods$statik/housedModuleNames$arr.jsx" />
+        <option value="$PROJECT_DIR$/create/node$class/creatorNode$class/Node_FancyNames#present.jsx" />
+        <option value="$PROJECT_DIR$/create/node$class/creatorNode$class/housedModuleNames$arr.jsx" />
+        <option value="$PROJECT_DIR$/create/node$class/creatorNode$class/statik#methods/housedModuleNames$arr.jsx" />
+        <option value="$PROJECT_DIR$/create/node$class/creatorNode$class/statik#methods/nameHandle$class/housedModuleNames$arr.jsx" />
+        <option value="$PROJECT_DIR$/create/node$class/creatorNode$class/statik#methods/nameHandle$class/class$present.jsx" />
+        <option value="$PROJECT_DIR$/create/node$class/creatorNode$class/statik#methods/nameHandle$class/constructor.jsx" />
+        <option value="$PROJECT_DIR$/create/node$class/spiceNode$class/Node_FancyNames#present.jsx" />
+        <option value="$PROJECT_DIR$/create/node$class/spiceNode$class/statik#methods/nameHandle$class/constructor.jsx" />
+        <option value="$PROJECT_DIR$/create/node$class/spiceNode$class/statik#methods/nameHandle$class/index.jsx" />
+        <option value="$PROJECT_DIR$/create/node$class/spiceNode$class/statik#methods/nameHandle$class/token$class#statik/constructor.jsx" />
+        <option value="$PROJECT_DIR$/create/node$class/spiceNode$class/statik#methods/nameHandle$class/token$class#statik/index.js" />
+        <option value="$PROJECT_DIR$/create/spaceTimeNode$class/#statik/nameHandle$class.jsx" />
+        <option value="$PROJECT_DIR$/create/spaceTimeNode$class/#statik/nameHandle$class/index.js" />
+        <option value="$PROJECT_DIR$/create/spaceTimeNode$class/#statik/nameHandle$class/proto/index.js" />
+        <option value="$PROJECT_DIR$/create/spaceTimeNode$class/#statik/nameHandle$class/statik/index.js" />
+        <option value="$PROJECT_DIR$/create/spaceTimeNode$class/#statik/nameHandle$class/proto/attrs$getObj.jsx" />
+        <option value="$PROJECT_DIR$/create/spaceTimeNode$class/#statik/nameHandle$class/proto/attrs$getDarr.jsx" />
+        <option value="$PROJECT_DIR$/create/spaceTimeNode$class/#proto/spice$getObj.jsx" />
+        <option value="$PROJECT_DIR$/create/node$class/index.js" />
+        <option value="$PROJECT_DIR$/create/spaceTimeNode$class/#proto/get#getFunc/func.jsx" />
+        <option value="$PROJECT_DIR$/create/spaceTimeNode$class/#statik/nameHandle$class/statik/attrDefs$obj.jsx" />
+        <option value="$PROJECT_DIR$/create/spaceTimeNode$class/#proto/get#getFunc/spaceTime$getObj/localSpace$get/func.jsx" />
+        <option value="$PROJECT_DIR$/create/spaceTimeNode$class/#proto/get#getFunc/spaceTime$getObj/localTime$get/past$getArr.jsx" />
+        <option value="$PROJECT_DIR$/create/spaceTimeNode$class/#proto/get#getFunc/spaceTime$getObj/func.jsx" />
         <option value="$PROJECT_DIR$/create/index.jsx" />
-        <option value="$PROJECT_DIR$/create/spaceNode$getClass/constructor.jsx" />
-        <option value="$PROJECT_DIR$/create/spaceNode$getClass/childNodes$getObj.jsx" />
-        <option value="$PROJECT_DIR$/create/baseNode$getClass/childNodes$getObj.jsx" />
+        <option value="$PROJECT_DIR$/create/node$class/structuredNames#present.jsx" />
+        <option value="$PROJECT_DIR$/create/node$class/childNodes$proto_getObj.jsx" />
+        <option value="$PROJECT_DIR$/create/spaceTimeNode$class/#proto/childNodes$getObj/index.js" />
+        <option value="$PROJECT_DIR$/create/spaceTimeNode$class/#proto/childNodes$getObj/nodeSpecs$getObj/addNodeSpec$getObj.jsx" />
         <option value="$PROJECT_DIR$/create/#util/structuredClass$get.jsx" />
-        <option value="$PROJECT_DIR$/create/spaceTimeNode$getClass/index.js" />
-        <option value="$PROJECT_DIR$/create/spaceTimeNode$getClass/#statics/nodeFlavorNames$obj.jsx" />
-        <option value="$PROJECT_DIR$/create/#util/structuredFunc$get.jsx" />
-        <option value="$PROJECT_DIR$/create/spaceTimeNode$getClass/invoke$get/index.js" />
-        <option value="$PROJECT_DIR$/create/spaceTimeNode$getClass/invoke$get.jsx" />
-        <option value="$PROJECT_DIR$/create/spaceTimeNode$getClass/invoke$get/#statics/scope$getObj.jsx" />
-        <option value="$PROJECT_DIR$/create/spaceTimeNode$getClass/scope$getObj.jsx" />
-        <option value="$PROJECT_DIR$/create/spaceTimeNode$getClass/invoke$get/#statics/index.js" />
-        <option value="$PROJECT_DIR$/create/spaceTimeNode$getClass/invoke$get/func.jsx" />
-        <option value="$PROJECT_DIR$/create/spaceTimeNode$getClass/invoke$get/#statics/space$getObj.jsx" />
-        <option value="$PROJECT_DIR$/create/spaceTimeNode$getClass/invoke$get/#statics/time$getObj.jsx" />
-        <option value="$PROJECT_DIR$/create/spaceTimeNode$getClass/housedNodeSpec$getObj.jsx" />
-        <option value="$PROJECT_DIR$/create/spaceTimeNode$getClass/childNodes$getObj.jsx" />
-        <option value="$PROJECT_DIR$/create/spaceTimeNode$getClass/childNodes$getObj/#statics/addNode.jsx" />
-        <option value="$PROJECT_DIR$/create/spaceTimeNode$getClass/childNodes$getObj/func.jsx" />
-        <option value="$PROJECT_DIR$/create/spaceTimeNode$getClass/childNodes$getObj/#statics/node$get.jsx" />
-        <option value="$PROJECT_DIR$/create/spaceTimeNode$getClass/childNodes$getObj/#statics/nodes$obj.jsx" />
-        <option value="$PROJECT_DIR$/create/spaceTimeNode$getClass/childNodes$getObj/#statics/flavoredNodes$getObj.jsx" />
-        <option value="$PROJECT_DIR$/create/spaceTimeNode$getClass/childNodes$getObj/#statics/flavoredFirstNode$get.jsx" />
-        <option value="$PROJECT_DIR$/create/spaceTimeNode$getClass/childNodes$getObj/#statics/index.js" />
-        <option value="$PROJECT_DIR$/create/spaceTimeNode$getClass/childNodes$getObj/#statics/housedNodeSpec$getObj.jsx" />
-        <option value="$PROJECT_DIR$/create/spaceTimeNode$getClass/constructor.jsx" />
-        <option value="$PROJECT_DIR$/create/spaceTimeNode$getClass/#statics/index.js" />
-        <option value="$PROJECT_DIR$/create/spaceTimeNode$getClass/#statics/defaultPresent$get.jsx" />
+        <option value="$PROJECT_DIR$/create/node$class/childNodes$proto_getObj/index.js" />
+        <option value="$PROJECT_DIR$/create/node$class/childNodes$proto_getObj#supr/index.js" />
+        <option value="$PROJECT_DIR$/create/node$class/childNodes$proto_getObj#supr/nodeSpecs$proto_getObj#supr/index.js" />
+        <option value="$PROJECT_DIR$/create/node$class/childNodes$proto_getObj#supr/nodeSpecs$proto_getObj#supr/addNodeSpecs$proto_getObj.jsx" />
+        <option value="$PROJECT_DIR$/create/spaceTimeNode$class/#proto/childNodes$getObj/nodeSpecs$getObj/index.js" />
+        <option value="$PROJECT_DIR$/create/spaceTimeNode$class/#proto/childNodes$getObj/nodeSpecs$getObj/func.jsx" />
+        <option value="$PROJECT_DIR$/create/spaceTimeNode$class/#proto/childNodes$getObj/nodeSpecs$getObj/updateNodeSpecs$getObj.jsx" />
+        <option value="$PROJECT_DIR$/create/spaceTimeNode$class/#statik/nameHandle$class/constructor.jsx" />
+        <option value="$PROJECT_DIR$/create/node$class/childNodes$proto_getObj#supr/nodeSpecs$proto_getObj#supr/updateNodeSpecs$proto_getObj.jsx" />
+        <option value="$PROJECT_DIR$/create/spaceTimeNode$class/#proto/childNodes$getObj/filteredNodes$getObj.jsx" />
       </list>
     </option>
   </component>
@@ -328,8 +353,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -376,7 +400,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="spaceTimeNode$getClass" />
+              <option name="myItemId" value="spaceTimeNode$class" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -394,17 +418,206 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="spaceTimeNode$getClass" />
+              <option name="myItemId" value="spaceTimeNode$class" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="#statics" />
+              <option name="myItemId" value="#statik" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spiceTime" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spiceTime" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="create" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spaceTimeNode$class" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="#statik" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nameHandle$class" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spiceTime" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spiceTime" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="create" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spaceTimeNode$class" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="#proto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spiceTime" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spiceTime" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="create" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spaceTimeNode$class" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="#proto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="childNodes$getObj" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spiceTime" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spiceTime" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="create" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spaceTimeNode$class" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="#proto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="childNodes$getObj" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nodeSpecs$getObj" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spiceTime" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spiceTime" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="create" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="node$class" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spiceTime" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spiceTime" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="create" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="node$class" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="childNodes$proto_getObj#supr" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spiceTime" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spiceTime" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="create" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="node$class" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="childNodes$proto_getObj#supr" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nodeSpecs$proto_getObj#supr" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spiceTime" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spiceTime" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="create" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="#util" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -413,26 +626,26 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../test" />
     <property name="js-jscs-nodeInterpreter" value="/usr/bin/node" />
     <property name="nodejs_interpreter_path" value="/usr/bin/node" />
-    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
+    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
     <property name="JavaScriptPreferStrict" value="false" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/create/spaceTimeNode$getClass/childNodes$getObj" />
-      <recent name="$PROJECT_DIR$/create/spaceNode$getClass" />
-      <recent name="$PROJECT_DIR$/create/spaceNode" />
-      <recent name="$PROJECT_DIR$/create/baseNode$getClass" />
-      <recent name="$PROJECT_DIR$/create/baseNode#getClass" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/create/spaceTimeNode$getClass/childNodes$getObj/#statics" />
-      <recent name="$PROJECT_DIR$/create/spaceTimeNode$getClass/statics$obj" />
+      <recent name="$PROJECT_DIR$/create/spaceTimeNode$class/#proto/childNodes$getObj/nodeSpecs$getObj" />
+      <recent name="$PROJECT_DIR$/create/node$class/spiceNode$class/statik#methods/nameHandle$class" />
       <recent name="$PROJECT_DIR$/create" />
-      <recent name="$PROJECT_DIR$/lib/topNode" />
-      <recent name="$PROJECT_DIR$/lib/MiniNode$func" />
+      <recent name="$PROJECT_DIR$/create/node$class" />
+      <recent name="$PROJECT_DIR$/create/spaceTimeNode$getClass/#proto/get#getFunc/spaceTime$getObj/localTime$get" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/create/node$class/childNodes$proto_getObj#supr/nodeSpecs$proto_getObj#supr" />
+      <recent name="$PROJECT_DIR$/create/spaceTimeNode$class/#proto/childNodes$getObj/nodeSpecs$getObj" />
+      <recent name="$PROJECT_DIR$/create/node$class/creatorNode$class/statik#methods/nameHandle$class" />
+      <recent name="$PROJECT_DIR$/create/node$class/creatorNode$class/methods$statik" />
+      <recent name="$PROJECT_DIR$/create/spaceTimeNode$getClass/#proto/get#getFunc/spaceTime$getObj/localSpace$get" />
     </key>
   </component>
   <component name="RunManager" selected="Node.js.constructor.jsx">
@@ -1042,12 +1255,60 @@
       <workItem from="1507079594845" duration="16371000" />
       <workItem from="1507124668099" duration="19879000" />
       <workItem from="1507184099823" duration="1417000" />
-      <workItem from="1507216132053" duration="11320000" />
+      <workItem from="1507216132053" duration="12758000" />
+      <workItem from="1507300382878" duration="19162000" />
+      <workItem from="1507425517933" duration="267000" />
+      <workItem from="1507476378270" duration="10282000" />
+      <workItem from="1507738742568" duration="14150000" />
+      <workItem from="1507947064957" duration="7981000" />
+      <workItem from="1507999290677" duration="3497000" />
+      <workItem from="1508125336264" duration="6768000" />
+      <workItem from="1508354089438" duration="33016000" />
+      <workItem from="1508441153626" duration="8148000" />
+      <workItem from="1508522151460" duration="32715000" />
+      <workItem from="1508635189080" duration="597000" />
+      <workItem from="1508693661382" duration="11076000" />
+      <workItem from="1508737086624" duration="5554000" />
+      <workItem from="1508769057944" duration="2363000" />
+      <workItem from="1508782450821" duration="3717000" />
+      <workItem from="1508856095030" duration="1686000" />
+      <workItem from="1508884527183" duration="12495000" />
+      <workItem from="1509222770191" duration="1360000" />
+      <workItem from="1509294411854" duration="2328000" />
+      <workItem from="1509462295323" duration="1423000" />
+      <workItem from="1509504082693" duration="5307000" />
+      <workItem from="1509545729711" duration="9861000" />
+      <workItem from="1509588401949" duration="4378000" />
+      <workItem from="1509652789481" duration="1453000" />
+      <workItem from="1509667799981" duration="439000" />
+      <workItem from="1509732047793" duration="22741000" />
+      <workItem from="1509766909310" duration="2507000" />
+      <workItem from="1509815154368" duration="9731000" />
+      <workItem from="1509848768544" duration="12184000" />
+      <workItem from="1509923179478" duration="20885000" />
+      <workItem from="1510012000103" duration="12898000" />
+      <workItem from="1510032447197" duration="5884000" />
+      <workItem from="1510068335683" duration="2337000" />
+      <workItem from="1510104744265" duration="2350000" />
+      <workItem from="1510256222498" duration="8399000" />
+      <workItem from="1510299076359" duration="4865000" />
+      <workItem from="1510350601558" duration="8342000" />
+      <workItem from="1510425983801" duration="9082000" />
+      <workItem from="1510459689191" duration="10632000" />
+      <workItem from="1510547049527" duration="11963000" />
+      <workItem from="1510628342899" duration="10292000" />
+      <workItem from="1510724005841" duration="5546000" />
+      <workItem from="1510772063343" duration="9882000" />
+      <workItem from="1510807459324" duration="14797000" />
+      <workItem from="1510870731674" duration="6615000" />
+      <workItem from="1510900248066" duration="10323000" />
+      <workItem from="1510946094940" duration="5656000" />
+      <workItem from="1510960203194" duration="14407000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1248272000" />
+    <option name="totallyTimeSpent" value="1672051000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1059,14 +1320,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="25" width="1368" height="726" extended-state="6" />
+    <frame x="-1" y="25" width="1368" height="726" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32838285" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32838285" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32838285" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -1075,7 +1336,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.330033" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22803031" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25227273" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1139,7 +1400,7 @@
           <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="4" />
+      <option name="time" value="5" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1148,203 +1409,215 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/create/node$class/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="18" column="2" selection-start-line="0" selection-start-column="0" selection-end-line="18" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/create/spiceNode$getClass.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/create/node$class/getNodes/baseRuntimeFunc.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="62" selection-start-line="13" selection-start-column="62" selection-end-line="13" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/create/node$class/getNodes/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/create/node$class/getNodes/getNodes.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/create/node$class/getNodes/getInfos.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/create/spaceTimeNode$getClass/#statics/nameHandle$class.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/create/node$class/getNode.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="36" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/create/node$class/getScope.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="1" selection-start-line="0" selection-start-column="0" selection-end-line="17" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/create/baseNode$getClass/childNode$getObj.jsx" />
-    <entry file="file://$PROJECT_DIR$/create/node$class/constructor.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="51" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/create/spaceTimeNode$getClass/#statics/instance$get.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="43" selection-start-line="0" selection-start-column="43" selection-end-line="0" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/create/spaceTimeNode$getClass/assign$getObj.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="20" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/create/baseNode$getClass/childNodes$getObj/index.js" />
-    <entry file="file://$PROJECT_DIR$/create/spaceTimeNode$getClass/firstName$getStr.jsx">
+    <entry file="file://$PROJECT_DIR$/create/spaceTimeNode$class/#statik/baseSpice$obj/get#spice.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+          <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/create/spaceTimeNode$getClass/buildtimeProps$getObj.jsx">
+    <entry file="file://$PROJECT_DIR$/create/spaceTimeNode$class/#proto/get#getFunc/spaceTime$getObj/localTime$get/future$get.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
-          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+          <caret line="2" column="51" selection-start-line="2" selection-start-column="51" selection-end-line="2" selection-end-column="51" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="18" column="6" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="6" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/create/node$class/n$static.jsx">
+    <entry file="file://$PROJECT_DIR$/create/create#get.jsx" />
+    <entry file="file://$PROJECT_DIR$/create/node$class/#present.jsx" />
+    <entry file="file://$PROJECT_DIR$/create/node$class/housedModuleNames$arr.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="35" selection-start-line="0" selection-start-column="35" selection-end-line="0" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/create/housedNodeSpec$getGetObj.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/create/node$class/spiceNode$class/housedModuleNames$arr.jsx" />
+    <entry file="file://$PROJECT_DIR$/create/node$class/spiceNode$class/statik#methods/housedModuleNames$arr.jsx" />
+    <entry file="file://$PROJECT_DIR$/create/node$class/spiceNode$class/statik#methods/nameHandle$class/housedModuleNames$arr.jsx" />
+    <entry file="file://$PROJECT_DIR$/create/node$class/spiceNode$class/Node_FancyNames#present.jsx" />
+    <entry file="file://$PROJECT_DIR$/create/node$class/spiceNode$class/statik#methods/nameHandle$class/statik#methods/token$class.jsx" />
+    <entry file="file://$PROJECT_DIR$/create/node$class/spiceNode$class/statik#methods/nameHandle$class/token$class#statik/constructor.jsx" />
+    <entry file="file://$PROJECT_DIR$/create/spaceTimeNode$class/#statik/nameHandle$class.jsx" />
+    <entry file="file://$PROJECT_DIR$/create/spaceTimeNode$class/#statik/nameHandle$class/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/create/spaceTimeNode$class/#statik/nameHandle$class/proto/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/create/spaceTimeNode$class/#statik/nameHandle$class/statik/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/create/#util/extendMe.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/create/spaceTimeNode$class/#statik/nameHandle$class/proto/attrs$getDarr.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="48" column="100" selection-start-line="48" selection-start-column="100" selection-end-line="48" selection-end-column="100" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/create/node$class/spiceNode$class/statik#methods/nameHandle$class/constructor.jsx" />
+    <entry file="file://$PROJECT_DIR$/create/node$class/spiceNode$class/statik#methods/nameHandle$class/token$class#statik/index.js" />
+    <entry file="file://$PROJECT_DIR$/create/node$class/spiceNode$class/statik#methods/nameHandle$class/index.jsx" />
+    <entry file="file://$PROJECT_DIR$/create/spaceTimeNode$class/#proto/spice$getObj.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/create/spaceTimeNode$class/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/create/spaceTimeNode$class/#proto/get#getFunc/spaceTime$getObj/localSpace$get/mountNodes#get.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/create/spaceTimeNode$class/#proto/get#getFunc/spaceTime$getObj/localSpace$get/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/create/spaceTimeNode$class/#proto/get#getFunc/spaceTime$getObj/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/create/spaceTimeNode$class/#statik/nameHandle$class/statik/attrDefs$obj.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/create/spaceTimeNode$class/#statik/baseSpice$obj/val#spice.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/create/spaceTimeNode$class/#proto/get#getFunc/spaceTime$getObj/localSpace$get/func.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="37" selection-start-line="1" selection-start-column="37" selection-end-line="1" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/create/spaceTimeNode$class/#proto/get#getFunc/func.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/create/spaceTimeNode$class/#proto/get#getFunc/spaceTime$getObj/localTime$get/func.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/create/spaceTimeNode$class/#proto/get#getFunc/spaceTime$getObj/localTime$get/past$getArr.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/create/spaceTimeNode$class/#proto/get#getFunc/spaceTime$getObj/func.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/create/index.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="86" selection-start-line="12" selection-start-column="86" selection-end-line="12" selection-end-column="86" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/create/spaceNode$getClass/index.js" />
-    <entry file="file://$PROJECT_DIR$/create/spaceNode$getClass/constructor.jsx" />
-    <entry file="file://$PROJECT_DIR$/create/spaceNode$getClass/baseNodeNames$arr#static.jsx" />
-    <entry file="file://$PROJECT_DIR$/create/spaceNode$getClass/childNodes$getObj.jsx" />
-    <entry file="file://$PROJECT_DIR$/create/spaceTimeNode$getClass/flavoredChildNodes$getObj.jsx" />
-    <entry file="file://$PROJECT_DIR$/create/spaceTimeNode$getClass/childInfos$getObj.jsx" />
-    <entry file="file://$PROJECT_DIR$/create/spaceTimeNode$getClass/addChildInfo$getObj.jsx" />
-    <entry file="file://$PROJECT_DIR$/create/spaceTimeNode$getClass/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/create/#util/structuredClass$get.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/create/#util/structuredFunc$get.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/create/spaceTimeNode$getClass/scope$getObj.jsx" />
-    <entry file="file://$PROJECT_DIR$/create/spaceTimeNode$getClass/time$updateObj.jsx" />
-    <entry file="file://$PROJECT_DIR$/create/spaceTimeNode$getClass/runtimeProps$getObj.jsx" />
-    <entry file="file://$PROJECT_DIR$/create/spaceTimeNode$getClass/invoke$get.jsx" />
-    <entry file="file://$PROJECT_DIR$/create/spaceTimeNode$getClass/invoke$get/#statics/space$getObj.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        <state relative-caret-position="420">
+          <caret line="45" column="38" selection-start-line="45" selection-start-column="38" selection-end-line="45" selection-end-column="38" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/create/spaceTimeNode$getClass/invoke$get/func.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/create/spaceTimeNode$getClass/invoke$get/#statics/index.js">
+    <entry file="file://$PROJECT_DIR$/create/node$class/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="33" selection-start-line="0" selection-start-column="33" selection-end-line="0" selection-end-column="33" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="2" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/create/spaceTimeNode$getClass/invoke$get/#statics/time$getObj.jsx">
+    <entry file="file://$PROJECT_DIR$/create/node$class/structuredNames#present.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="41" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
+        <state relative-caret-position="15">
+          <caret line="1" column="27" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/create/spaceTimeNode$getClass/invoke$get/index.js">
+    <entry file="file://$PROJECT_DIR$/create/node$class/childNodes$proto_getObj.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="75">
+          <caret line="5" column="1" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/create/spaceTimeNode$getClass/childNodes$getObj/index.js">
+    <entry file="file://$PROJECT_DIR$/create/spaceTimeNode$class/#proto/childNodes$getObj/func.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1352,102 +1625,102 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/create/spaceTimeNode$getClass/childNodes$getObj/func.jsx">
+    <entry file="file://$PROJECT_DIR$/create/spaceTimeNode$class/#proto/childNodes$getObj/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
-          <folding />
+        <state relative-caret-position="135">
+          <caret line="9" column="77" selection-start-line="9" selection-start-column="77" selection-end-line="9" selection-end-column="77" />
+          <folding>
+            <element signature="e#0#58#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/create/spaceTimeNode$getClass/childNodes$getObj/#statics/node$get.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="53" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/create/spaceTimeNode$getClass/childNodes$getObj/#statics/nodes$obj.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/create/spaceTimeNode$getClass/childNodes$getObj/#statics/flavoredNodes$getObj.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/create/spaceTimeNode$getClass/childNodes$getObj.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="60" column="9" selection-start-line="55" selection-start-column="22" selection-end-line="60" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/create/spaceTimeNode$getClass/childNodes$getObj/#statics/flavoredFirstNode$get.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/create/spaceTimeNode$getClass/childNodes$getObj/#statics/index.js">
+    <entry file="file://$PROJECT_DIR$/create/node$class/childNodes$proto_getObj#supr/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/create/spaceTimeNode$class/#proto/childNodes$getObj/nodeSpecs$getObj/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="41" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
           <folding>
-            <element signature="e#0#42#0" expanded="true" />
+            <element signature="e#0#62#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/create/spaceTimeNode$getClass/childNodes$getObj/#statics/housedNodeSpec$getObj.jsx">
+    <entry file="file://$PROJECT_DIR$/create/node$class/childNodes$proto_getObj#supr/nodeSpecs$proto_getObj#supr/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-173">
-          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        <state relative-caret-position="15">
+          <caret line="1" column="42" selection-start-line="1" selection-start-column="42" selection-end-line="1" selection-end-column="42" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/create/spaceTimeNode$getClass/constructor.jsx">
+    <entry file="file://$PROJECT_DIR$/create/spaceTimeNode$class/#proto/childNodes$getObj/nodeSpecs$getObj/func.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="65" selection-start-line="2" selection-start-column="65" selection-end-line="2" selection-end-column="65" />
+        <state relative-caret-position="187">
+          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/create/spaceTimeNode$getClass/#statics/nodeFlavorNames$obj.jsx">
+    <entry file="file://$PROJECT_DIR$/create/spaceTimeNode$class/#proto/childNodes$getObj/nodeSpecs$getObj/updateNodeSpecs$getObj.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+        <state relative-caret-position="60">
+          <caret line="4" column="2" selection-start-line="2" selection-start-column="5" selection-end-line="4" selection-end-column="2" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/create/spaceTimeNode$getClass/#statics/index.js">
+    <entry file="file://$PROJECT_DIR$/create/#util/structuredClass$get.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="48" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
-          <folding>
-            <element signature="e#0#42#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="645">
+          <caret line="46" column="51" selection-start-line="46" selection-start-column="51" selection-end-line="46" selection-end-column="51" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/create/spaceTimeNode$getClass/#statics/defaultPresent$get.jsx">
+    <entry file="file://$PROJECT_DIR$/create/spaceTimeNode$class/#statik/nameHandle$class/constructor.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+        <state relative-caret-position="90">
+          <caret line="6" column="42" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/create/node$class/childNodes$proto_getObj#supr/nodeSpecs$proto_getObj#supr/updateNodeSpecs$proto_getObj.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/create/spaceTimeNode$class/constructor.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/create/spaceTimeNode$class/#proto/childNodes$getObj/onlyFilteredNode$get.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/create/spaceTimeNode$class/#proto/childNodes$getObj/filteredNodes$getObj.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding />
         </state>
       </provider>

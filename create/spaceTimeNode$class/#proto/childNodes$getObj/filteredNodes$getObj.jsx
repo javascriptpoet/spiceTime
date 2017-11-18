@@ -1,0 +1,20 @@
+export default ({
+    external:{_}
+})=>({
+    path:pPath,
+    me:pNode,
+    constructor:{instance$get:node$get}
+})=>(filter,nodeSpecs)=>_.reduce(
+    nodeSpecs,
+    (nodes,{
+        me:nodeSpec,
+        nameHandle:{firstName,fullName}
+    })=>(
+        filter(info)?{...nodes,
+            [firstName]:node$get({pNode,nodeSpec,
+                path:pPath+'/'+fullName
+            })
+        }:nodes
+    ),
+    {}
+)

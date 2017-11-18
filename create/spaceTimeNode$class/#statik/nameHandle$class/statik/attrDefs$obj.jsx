@@ -1,0 +1,19 @@
+export  default ()=>()=>({
+    named$obj:{
+        nodeFlavor:{
+            tokenNames:['space','future','present'],
+            defaultToken:['space']
+        }
+    },
+    numbered$arr:[
+        {
+            attrName:'spice',
+            defaultToken:['val'],
+            props$get:(args)=>({name:args.join('_')})
+        },
+        {
+            attrName:'supr',
+            props$get:([suprShortName])=>({suprShortName})
+        }
+    ]
+})
