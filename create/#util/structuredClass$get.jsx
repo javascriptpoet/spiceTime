@@ -9,12 +9,9 @@ export default ({
 })=>{
     class nameHandle$class {
         constructor(fullName){
-            const firstName=fullName.split('#')[0];
-            const tokens=fullName.split(/$|#/g);
-            Object.assign(this,{firstName,fullName,tokens,
-                me:this,
-                spiceName:tokens[1].startsWith('get')?'get':'val',
-                nodeFlavor:tokens[2] || 'space'
+            const [firstName,spiceName='val']=fullName.split(/$|#/g);
+            Object.assign(this,{firstName,fullName, spiceName,
+                me:this
             })
         }
     };

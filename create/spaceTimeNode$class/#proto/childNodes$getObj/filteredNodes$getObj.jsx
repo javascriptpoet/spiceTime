@@ -10,7 +10,7 @@ export default ({
         me:nodeSpec,
         nameHandle:{firstName,fullName}
     })=>(
-        filter(info)?{...nodes,
+        filter(nodeSpec)?{...nodes,
             [firstName]:node$get({pNode,nodeSpec,
                 path:pPath+'/'+fullName
             })
