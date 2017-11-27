@@ -1,0 +1,1 @@
+export default ()=>()=>({buildtime$getDollar,runtime$getDollar})=>({buildtime$getDollar,runtime$getDollar})

@@ -52,20 +52,17 @@ export default ({
                         })
                     }),
                     {
-                        extend$get:({func,statik})=>child$get({func,
+                        extend:({func,statik})=>child$get({func,
                             statik:{...child.supr,...statik}
                         })
                     }
-                );
+                )
                 const selfSense=extendMe({parent,
                     self$get:child$get,
-                    nameHandle:childNameHandle
-                });
-                Object.defineProperty(selfSense,'self',{
-                    get:()=>t.assert(false,'Sorry, you have to define self before using self')
-                });
-                const childSpec={get:()=>isGet?child:child()};
-                Object.defineProperty(selfSense,'self',childSpec);
+                    nameHandle:childNameHandle,
+                })
+                const childSpec={get:()=>isGet?child:child()}
+                Object.defineProperty(selfSense,'self',childSpec)
                 return childSpec
             }
         ))

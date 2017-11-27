@@ -9,17 +9,22 @@ export default ({
 })=>{
     const {
         nodeSpec:{housedModuleNames,homelessModules,
-            nameHandle:{isPresent}
+            nameHandle:{isPresentNode}
         }
-    }=assign({pNode,path,nodeSpec});
-    const {buildtimeProps}=assign({buildtimeProps:buildtimeProps$getObj()});
-    assign({spice:spice$getObj()});
-    if(isPresent){
-        assign({present$get:homelessModules(buildtimeProps)})
-    }else{
-        const {childNodes:{present:presentNode}}=assign(({childNodes:childNodes$getObj()}));
-        assign({
-            present$get:presentNode?presentNode.present$get:defaultPresent$get
-        })
-    }
+    }=assign({pNode,path,nodeSpec})
+    const {buildtimeProps,
+        childNodes:{present:presentNode}
+    }=assign({
+        buildtimeProps:buildtimeProps$getObj(),
+        childNodes:childNodes$getObj()
+    })
+    assign({spice:spice$getObj()})
+    assign({
+        present$get:isPresentNode?
+            presentNode.get:
+            (spaceTime)=>{
+                const {present$get}=assign({present$get:homelessModules(buildtimeProps)})
+                return present$get(spaceTime)
+            }
+    })
 }
