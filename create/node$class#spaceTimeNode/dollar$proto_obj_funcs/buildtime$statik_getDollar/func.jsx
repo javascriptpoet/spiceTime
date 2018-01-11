@@ -10,20 +10,21 @@ export default ({
 )=>()=>{
     const dollar$get=(filter)=>_.reduce(
         childNodes,
-        (child$s,{get,
+        (childDollars,{
+            get$getFunc:getChild,
             me:childNode,
             dollar$obj_funcs:{
                 buildtime$getDollar:childDollar$get
             }
         })=>{
             const child$=childDollar$get()
-            if(!filter(child$))return child$s
-            return {...child$s,
+            if(!filter(child$))return childDollars
+            return {...childDollars,
                 [childFirstName]:{...child$,
                     mount: ({into})=>mountNodes({
                         scope:into,
                         nodes:{childNode},
-                        get:get({})
+                        get:getChild({})
                     })
                 }
             }

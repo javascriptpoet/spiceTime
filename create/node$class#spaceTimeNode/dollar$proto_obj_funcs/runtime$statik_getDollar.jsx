@@ -7,13 +7,15 @@ export  default ({
     nodes:_(childNodes).reduce(
         (nodes,{
             me:childNode,
-            dollar$obj_func:{buildtime$getDollar:{myChildDollar$getObj}}
+            dollar$obj_func:{buildtime$getDollar:{dollar$getObj:{
+                buildtime$getDollar:childBuildtime$getDollar
+            }}}
         },firstName)=>(
-            filter(myChildDollar$getObj())?{...nodes,
+            filter(childBuildtime$getDollar())?{...nodes,
                 [firstName]:childNode
             }:nodes
         ),
         {}
     ),
-    get:({get})=>get(spiceTime)
+    get:({get$getFunc})=>get$getFunc(spiceTime)
 })

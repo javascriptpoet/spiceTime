@@ -1,0 +1,1 @@
+export default ()=>({descriptors})=>(target)=>Object.defineProperties(target,descriptors)

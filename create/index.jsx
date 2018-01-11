@@ -16,44 +16,42 @@ spiceTime is made of spice
 Thyme, time, rhyme
 And not a dime
 */
-import './node$class';
-const external=require('./#external');
-const {extendMe,me:util}=require('./#util')({external});
-const buildtimeProps=extendMe({util,external});
-const housedNodeSpec$getGetObj=require('./housedNodeSpec$getGetObj')(buildtimeProps)();
-const spaceTimeNode=require('./spaceTimeNode$class')(buildtimeProps)();
-const create=({fullName,
-    creatorNode$class=spaceTimeNode,
-    pBuildtimeProps=buildtimeProps,
-    pSpace={create},
-    require:appTopRequire
-})=>{
-    const path='./'+fullName;
-    const {housedNodeSpec$getObj,
-        me:boundCreatorNode$class
-    }=creatorNode$class.extend$getClass({
-        statik:{
-            housedNodeSpec$getObj:housedNodeSpec$getGetObj({appTopRequire})
-        }
-    });
-    const topNode=new boundCreatorNode$class({path,fullName,
-        pNode$obj:{buildtimeProps},
-        nodeSpec:housedNodeSpec$getObj({path})
-    });
-    return topNode.get({
-        pSpaceTime:{...pSpace,time:{
-            past:Object.assign([creatorNode$class],{
-                supr:creatorNode$class
-            })
-        }}
-    })
-};
-const node$class=create({require,
-    fullName:'node$class'
-});
-return ({fullName, require})=>create({fullName,require,
-    pBuildtimeProps:{util},
-    creatorNode$class:node$class
+import './node$class'
+import './class$spice'
+import './func$spice'
+const externals=require('./externals')
+const utils=require('./utils')({externals})
+const {extendMe}=utils
+const defineProps=extendMe({
+    externals:extendMe(externals),
+    utils:extendMe(utils)
 })
+const populate$getObj=require('./populate$getObj')(defineProps)()
+const const$spice=require('./const$spice')(defineProps)()
+const spaceTime=populate$getObj({
+    spaceTime:{
+        descriptor$getObj:require('./descriptor$getObj')(defineProps)({const$spice})
+    },
+    wrappedlocals:{
+        class$spice:require('./class$spice'),
+        get$spice:require('./get$spice'),
+        func$spice:require('./func$spice')
+    }}
+)
+export default ({fullName,require})=>{
+    const {node$class}=spaceTime.$.evolve({
+        topAppRequire:require
+    }).$.populate({
+        node$class:require('./node$class')
+    })
+    return new node$class({
+        fullName,
+        path: './' + fullName
+    }).get({})
+}
+
+
+
+
 
 

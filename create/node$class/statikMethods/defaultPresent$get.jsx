@@ -1,0 +1,1 @@
+export default ({external:{_}})=>({time,...space})=>_.values(space)
