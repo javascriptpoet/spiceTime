@@ -78,7 +78,7 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectPlainTextFileTypeManager">
-    <file url="file://$PROJECT_DIR$/create/utils/assert.jsx" />
+    <file url="file://$PROJECT_DIR$/create$old/utils/utils/assert.jsx" />
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_3" default="true" assert-keyword="false" jdk-15="false">
     <output url="file://$PROJECT_DIR$/out" />

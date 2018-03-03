@@ -1,0 +1,1 @@
+export default ()=>({scope})=>(wrappedLocals)=>scope.$.evolve().$.populate(wrappedLocals).$.locals$obj

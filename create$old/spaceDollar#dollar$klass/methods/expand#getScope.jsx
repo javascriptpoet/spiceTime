@@ -1,0 +1,1 @@
+export default ()=>({props$cast,scope})=>(expander)=>Object.assign(scope,props$cast(expander))

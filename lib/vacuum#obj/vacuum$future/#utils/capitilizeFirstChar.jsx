@@ -1,0 +1,1 @@
+export default ()=>([firstChar,...restStr])=>(firstChar.toUpperCase()+restStr)
