@@ -1,0 +1,1 @@
+export default ()=>()=>(target,source)=>Object.defineProperties(target,Object.getOwnPropertyDescriptors(source))
